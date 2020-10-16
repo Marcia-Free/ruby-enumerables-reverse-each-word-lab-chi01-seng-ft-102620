@@ -6,6 +6,7 @@ def reverse_each_word(string)
   split_word_array.each do |element|
    reverse_word = element.reverse()
    reverse_array<<reverse_word
+  
   end
   reverse_array.join(" ")
   
